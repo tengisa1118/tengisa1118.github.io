@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://hkust.edu.hk/'>HKUST</a> | <a href='https://www.x-humanoid.com/'>X-Humanoid</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: icon.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
+    # >
+    # <p>555 your office number</p>
+    # <p>123 your address street</p>
+    # <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -21,14 +22,29 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am **Nga Teng Chan (Louisa)**, a first-year MPhil student at HKUST, advised by Prof. [Qifeng Chen](https://cqf.io/). I received my Bachelor's degree from Tsinghua University in 2025, where I completed my thesis under the supervision of Prof. [Tao Zhang](https://www.au.tsinghua.edu.cn/en/info/1081/3288.htm). Currently, I am also bridging academia and industry as a Research Intern at [X-Humanoid](https://www.x-humanoid.com/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## From Control to Cognition: My Research Journey
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My long-term goal is to build intelligent robots capable of autonomously exploring unstructured and dangerous environments, such as deep space.
+
+My journey began with a focus on the "body" of the robot. During my undergraduate studies, I built a foundation in traditional robotics, working on the mechanical design and control of drones and lunar rovers.
+
+However, I realized that a robust body needs an intelligent mind. A core question began to drive my research: **"How can we enable robots to think and act like humans?"** To explore this, I pivoted my focus to Robot Learning and Embodied AI. I studied different embodiments of intelligence — from dexterous robotic hands, to bimanual manipulation systems, and ultimately to humanoid robots. Through this progression, I became deeply interested in how perception, decision-making, and control can be unified into a coherent embodied system.
+
+## Current Focus
+
+I am currently working to bridge the gap between high-level reasoning (the "cerebrum") and low-level motor control (the "cerebellum"). My research interests include:
+
+- **Humanoid Loco-manipulation** — unifying locomotion and manipulation into coordinated whole-body intelligence.
+- **Multimodal Decision-Making** — enabling collaborative agents to perceive, reason, and act effectively in embodied environments.
+
+## Open for Opportunities
+
+I am actively seeking research opportunities for Summer 2026. If you see a potential fit or would like to discuss collaboration, please feel free to reach out.

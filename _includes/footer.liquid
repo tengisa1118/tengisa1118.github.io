@@ -13,6 +13,9 @@
 
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
+    <div class="robot-gif-footer" style="position: absolute; bottom: 90%; right: 30px; z-index: 1000;">
+      <img src="{{ '/assets/gif/G1_walking.gif' | relative_url }}" alt="Robot Walking" style="height: 140px; width: auto;">
+    </div>
     <div class="container mt-0">
       {{ footer_contents }}
     </div>
@@ -22,6 +25,10 @@
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
+
+    <div class="robot-gif-footer" style="position: absolute; bottom: 90%; right: 30px; z-index: 1000;">
+      <img src="{{ '/assets/gif/G1_walking.gif' | relative_url }}" alt="Robot Walking" style="height: 140px; width: auto;">
+    </div>
 
     <div class="container">
       {{ footer_contents }}
