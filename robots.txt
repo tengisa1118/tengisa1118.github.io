@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ngateng1118.github.io/sitemap.xml
+Sitemap: https://tengisa1118.github.io/sitemap.xml
