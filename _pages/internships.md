@@ -8,33 +8,75 @@ nav_order: 3
 ---
 
 <div class="internships">
+
+  <!-- Jushen Technology -->
   <div class="internship-item">
     <div class="row align-items-center mb-4">
       <div class="col-md-2 text-center">
-        <img src="{{ '/assets/img/companies/x-humanoid_logo.png' | relative_url }}" alt="X-Humanoid" class="company-logo">
+        <img src="{{ '/assets/img/companies/jushen_logo.png' | relative_url }}"
+             alt="Jushen Technology"
+             class="company-logo">
       </div>
       <div class="col-md-10">
         <h4>Research Intern</h4>
-        <p class="institution"><a href="https://www.x-humanoid.com/" target="_blank">X-Humanoid</a></p>
-        <p class="period">December 2025 - Present</p>
-        <p class="description">Working on humanoid robotics, focusing on integrating vision-language models with world models for decision-making.</p>
+        <p class="institution">
+          <a href="https://www.ju-shen.com/" target="_blank">
+            Shanghai Jushen Technology Co., Ltd.
+          </a>
+          <span class="company-note"> · Unitree Ecosystem Partner</span>
+        </p>
+        <p class="period">June 2026 - Present</p>
+        <p class="description">
+          Conducting research on Vision-Language-Action (VLA) models for humanoid loco-manipulation.
+        </p>
       </div>
     </div>
   </div>
 
+  <!-- X-Humanoid -->
   <div class="internship-item">
     <div class="row align-items-center mb-4">
       <div class="col-md-2 text-center">
-        <img src="{{ '/assets/img/companies/NUS_logo.jpg' | relative_url }}" alt="NUS" class="company-logo">
+        <img src="{{ '/assets/img/companies/x-humanoid_logo.png' | relative_url }}"
+             alt="X-Humanoid"
+             class="company-logo">
       </div>
       <div class="col-md-10">
         <h4>Research Intern</h4>
-        <p class="institution"><a href="https://www.comp.nus.edu.sg/cs/people/shaol/" target="_blank">LinS Lab</a>, National University of Singapore</p>
-        <p class="period">July 2025 - August 2025</p>
-        <p class="description">Conducted research on bimanual manipulation and robot learning under Prof. Lin Shao.</p>
+        <p class="institution">
+          <a href="https://www.x-humanoid.com/" target="_blank">X-Humanoid</a>
+        </p>
+        <p class="period">November 2025 - April 2026</p>
+        <p class="description">
+          Worked on humanoid robotics, focusing on integrating vision-language models
+          with world models for decision-making.
+        </p>
       </div>
     </div>
   </div>
+
+  <!-- NUS -->
+  <div class="internship-item">
+    <div class="row align-items-center mb-4">
+      <div class="col-md-2 text-center">
+        <img src="{{ '/assets/img/companies/NUS_logo.jpg' | relative_url }}"
+             alt="NUS"
+             class="company-logo">
+      </div>
+      <div class="col-md-10">
+        <h4>Research Intern</h4>
+        <p class="institution">
+          <a href="https://www.comp.nus.edu.sg/cs/people/shaol/" target="_blank">LinS Lab</a>,
+          National University of Singapore
+        </p>
+        <p class="period">July 2025 - August 2025</p>
+        <p class="description">
+          Conducted research on bimanual manipulation and robot learning under Prof. Lin Shao.
+        </p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <style>
@@ -82,6 +124,11 @@ nav_order: 3
 
 .institution a:hover {
   color: var(--global-theme-color);
+}
+
+.company-note {
+  font-weight: 400;
+  color: var(--global-text-color-light);
 }
 
 .period {
