@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://hkust.edu.hk/'>HKUST</a> | <a href='https://www.x-humanoid.com/'>X-Humanoid</a>
+subtitle: <a href='https://hkust.edu.hk/'>HKUST</a> | <a href='https://www.ju-shen.com/'>Jushen Technology</a>
 
 profile:
   align: right
@@ -28,7 +28,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Nga Teng Chan (Louisa)**, a first-year MPhil student at HKUST, advised by Prof. [Qifeng Chen](https://cqf.io/). I received my Bachelor's degree from Tsinghua University in 2025, where I completed my thesis under the supervision of Prof. [Tao Zhang](https://www.au.tsinghua.edu.cn/en/info/1081/3288.htm). Currently, I am also bridging academia and industry as a Research Intern at [X-Humanoid](https://www.x-humanoid.com/).
+I am **Nga Teng Chan (Louisa)**, a first-year MPhil student at HKUST, advised by Prof. [Qifeng Chen](https://cqf.io/). I received my Bachelor's degree from Tsinghua University in 2025, where I completed my thesis under the supervision of Prof. [Tao Zhang](https://www.au.tsinghua.edu.cn/en/info/1081/3288.htm). Currently, I am also bridging academia and industry as a Research Intern at [Shanghai Jushen Technology Co., Ltd.](https://www.ju-shen.com/).
 
 ## From Control to Cognition: My Research Journey
 
@@ -43,8 +43,8 @@ However, I realized that a robust body needs an intelligent mind. A core questio
 I am currently working to bridge the gap between high-level reasoning (the "cerebrum") and low-level motor control (the "cerebellum"). My research interests include:
 
 - **Humanoid Loco-manipulation** — unifying locomotion and manipulation into coordinated whole-body intelligence.
-- **Multimodal Decision-Making** — enabling collaborative agents to perceive, reason, and act effectively in embodied environments.
+- **Continual Learning** — enabling embodied agents to continuously adapt, acquire new skills, and retain prior knowledge over time.
 
 ## Open for Opportunities
 
-I am actively seeking research opportunities for Summer 2026. If you see a potential fit or would like to discuss collaboration, please feel free to reach out.
+I am currently seeking PhD opportunities in robotics and embodied intelligence. If you are looking for prospective PhD students or see a potential research fit, please feel free to reach out.
