@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 # latest_posts:
 #   enabled: true
@@ -28,7 +28,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Nga Teng Chan (Louisa)**, a first-year MPhil student at HKUST, advised by Prof. [Qifeng Chen](https://cqf.io/). I received my Bachelor's degree from Tsinghua University in 2025, where I completed my thesis under the supervision of Prof. [Tao Zhang](https://www.au.tsinghua.edu.cn/en/info/1081/3288.htm). Currently, I am also bridging academia and industry as a Research Intern at [Shanghai Jushen Technology Co., Ltd.](https://www.ju-shen.com/).
+I am **Nga Teng Chan (Louisa)**, a second-year MPhil student at HKUST, advised by Prof. [Qifeng Chen](https://cqf.io/). I received my Bachelor's degree from Tsinghua University in 2025, where I completed my thesis under the supervision of Prof. [Tao Zhang](https://www.au.tsinghua.edu.cn/en/info/1081/3288.htm). Currently, I am also bridging academia and industry as a Research Intern at [Shanghai Jushen Technology Co., Ltd.](https://www.ju-shen.com/).
 
 ## From Control to Cognition: My Research Journey
 
