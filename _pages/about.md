@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+seo_title: Nga Teng Chan | Robotics & Embodied AI
 permalink: /
 subtitle: <a href='https://hkust.edu.hk/'>HKUST</a> | <a href='https://www.ju-shen.com/'>Jushen Technology</a>
 

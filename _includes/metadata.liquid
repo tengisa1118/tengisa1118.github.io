@@ -26,7 +26,9 @@
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}
-  {% if page.url == '/blog/index.html' %}
+  {% if page.seo_title %}
+    {{ page.seo_title | escape }}
+  {% elsif page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
   {% elsif page.title != 'blank' and page.url != '/' %}
     {% if page.title == null or page.title == '' %}
@@ -40,6 +42,11 @@
 </title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.url == '/' %}
+  <script type="application/ld+json">
+    {{ site.data.person | jsonify }}
+  </script>
+{% endif %}
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
