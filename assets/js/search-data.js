@@ -23,7 +23,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/internships/";
           },
-        },{id: "news-graduated-from-tsinghua-university-with-a-bachelor-s-degree",
+        },{id: "news-received-the-graduate-academic-excellence-award-from-the-school-of-aerospace-engineering-tsinghua-university",
+          title: '🏆 Received the Graduate Academic Excellence Award from the School of Aerospace Engineering,...',
+          description: "",
+          section: "News",},{id: "news-graduated-from-tsinghua-university-with-a-bachelor-s-degree",
           title: '🎓 Graduated from Tsinghua University with a Bachelor’s degree!',
           description: "",
           section: "News",},{id: "news-preprint-robohiman-compositional-generalization-in-long-horizon-manipulation-was-released-on-arxiv",
@@ -31,6 +34,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-rotri-diff-was-accepted-to-icra-2026",
           title: '🎉 RoTri-Diff was accepted to ICRA 2026!',
+          description: "",
+          section: "News",},{id: "news-observe-retarget-and-distill-was-accepted-to-the-dexhand-workshop-at-eccv-2026",
+          title: '🎉 Observe, Retarget, and Distill was accepted to the DexHAND Workshop at ECCV...',
+          description: "",
+          section: "News",},{id: "news-robo-cortex-was-accepted-to-the-ttcl-workshop-at-neurips-2026",
+          title: '🎉 Robo-Cortex was accepted to the TTCL Workshop at NeurIPS 2026!',
           description: "",
           section: "News",},{
         id: 'social-email',
