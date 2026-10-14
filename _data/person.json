@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nga Teng Chan",
+  "alternateName": "Louisa Chan",
+  "url": "https://tengisa1118.github.io/",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Hong Kong University of Science and Technology"
+  },
+  "sameAs": ["https://github.com/tengisa1118", "https://scholar.google.com/citations?user=mtYXmkcAAAAJ"],
+  "knowsAbout": ["Robotics", "Embodied AI", "Humanoid Robotics", "Robot Learning", "Manipulation"]
+}
