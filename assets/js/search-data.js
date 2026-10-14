@@ -41,6 +41,9 @@ ninja.data = [{
           section: "News",},{id: "news-robo-cortex-was-accepted-to-the-ttcl-workshop-at-neurips-2026",
           title: '🎉 Robo-Cortex was accepted to the TTCL Workshop at NeurIPS 2026!',
           description: "",
+          section: "News",},{id: "news-my-ongoing-work-phader-was-accepted-to-the-lfc-workshop-at-corl-2026-the-work-is-still-in-progress-with-more-exciting-developments-yet-to-come",
+          title: '🎉 My ongoing work PhaDeR was accepted to the LfC Workshop at CoRL...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
